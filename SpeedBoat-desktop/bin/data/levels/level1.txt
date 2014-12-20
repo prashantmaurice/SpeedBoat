@@ -1,0 +1,55 @@
+! Maurice Entertainment
+! format = id, position(1,8,15) even in y direction
+! 1 = coin
+! 2 = ramp
+! 3 = three rocks straight
+! 4 = three rocks diagonal
+! 5 = partial divider
+! 6 = total divider and ramp combo
+! 7 = four coins
+! 8 = four rocks straight
+! 9 = four rocks diagonal
+! 10 = four rocks longitudinal
+! 11 = coins big
+! 12 = wave 
+! 13 = continous wave = {num,y,dist}
+! 14 = rocket
+! 15 = checkpoint course
+! 16 = large mine field
+! first zero is dummy
+start
+10 4 rocks_4longitudinal
+6 1 dividerrampcombo
+13 2513 continouswave
+6 1 dividerrampcombo
+16 6 mine
+15 4 checkpoints
+13 2513 continouswave
+11 8 bigcoins
+12 5 single_wave 
+10 4 rocks_4longitudinal
+15 3 checkpoints
+13 2513 continouswave
+9 3 rocks_4diagonal
+8 4 rocks_4straight
+13 2513 continouswave
+7 4 fourcoins
+5 1 partialdivider
+14 14 rocket
+13 1513 continouswave
+6 1 dividerrampcombo
+6 13 dividerrampcombo
+14 14 rocket
+13 2613 continouswave
+6 2 dividerrampcombo
+13 2513 continouswave
+6 12 dividerrampcombo
+11 8 bigcoins
+12 5 single_wave 
+10 4 rocks_4longitudinal
+13 2513 continouswave
+4 1 rocks_3diagonal
+3 7 rocks_4staright
+2 8 ramp
+13 513 coinbig
+2 1 ramp
